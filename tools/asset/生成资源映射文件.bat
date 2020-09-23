@@ -1,0 +1,2 @@
+node generate_asset_path.js
+pause
