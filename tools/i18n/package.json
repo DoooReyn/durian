@@ -1,0 +1,17 @@
+{
+  "name": "i18n",
+  "version": "1.0.0",
+  "description": "",
+  "main": "i18n.js",
+  "scripts": {
+    "test": "node i18n.js"
+  },
+  "keywords": [
+    "i18n"
+  ],
+  "author": "doooreyn",
+  "license": "ISC",
+  "dependencies": {
+    "node-xlsx": "^0.15.0"
+  }
+}
