@@ -18,7 +18,7 @@ def save_as_json():
     """保存为配置文件
     """
     with open(SAVE, "w", encoding=ENCODING_JSON) as f:
-        f.write(PREFIX_JSON + json.dumps(TABLES))
+        f.write(PREFIX_JSON + json.dumps(TABLES, ensure_ascii=False))
 
 
 def convert_type(value, value_type):
